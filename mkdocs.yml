@@ -1,0 +1,15 @@
+## Préambule
+site_name: Lila Website
+site_description: Un site sur quelque chose.
+site_author: Lila Architecture
+
+theme:
+  name: mkdocs ##readthedocs #mkdocs # Le même thème qu'en ligne
+
+
+##Architecture
+nav:
+  - Accueil: index.md
+
+##Extensions
+## Site de base
