@@ -2,15 +2,39 @@
 site_name: Lila Website
 site_description: Un site sur quelque chose.
 site_author: Lila Architecture
+copyright: cc 
 
 theme:
-  name: mkdocs ##readthedocs #mkdocs # Le même thème qu'en ligne
+  name: readthedocs #mkdocs # Le même thème qu'en ligne
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
 
 
 ##Architecture
 nav:
   - Accueil: index.md
   - Pense-bête: pense_bete.md
-  
-##Extensions
+
+## Extensions
+markdown_extensions:
+    - fenced_code
+    - footnotes
+    - tables
+    - admonition 
+    - nl2br
+    - sane_lists
+    - smarty
+    - toc:
+        permalink: true
+        anchorlink: false
+        baselevel: 3
+    - pymdownx.arithmatex
+    - pymdownx.emoji
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        clickable_checkbox: true
+    - pymdownx.tilde
+
 ## Site de base
