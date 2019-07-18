@@ -10,6 +10,7 @@ theme:
 ##Architecture
 nav:
   - Accueil: index.md
-
+  - Pense-bête: pense_bete.md
+  
 ##Extensions
 ## Site de base
